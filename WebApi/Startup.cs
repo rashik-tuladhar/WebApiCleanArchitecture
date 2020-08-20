@@ -1,3 +1,4 @@
+using Infrastructure.Authentication;
 using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,6 +22,7 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             #region Infrastructure
+            services.AddAuthenticationInfrastructure(Configuration);
             services.AddPersistenceInfrastructure(Configuration);
             #endregion
 
@@ -40,7 +42,7 @@ namespace WebApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseSwaggerExtension();
 

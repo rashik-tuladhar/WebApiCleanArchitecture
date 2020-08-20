@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6JCfRrSCQALGEyOMub2B2PkCebGgGU6hamHQfst7izkHIVHCFWxbdVx/LYyJPnd5dYbZrOKYsU9ndzlxzh0hw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rashik\\Desktop\\GITHUB PROJECTS\\WebApiCleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Infrastructure.Persistence.deps.json
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Infrastructure.Persistence.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Infrastructure.Persistence.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csprojAssemblyReference.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.pdb

@@ -1,0 +1,9 @@
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\bin\Debug\netstandard2.0\Application.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\bin\Debug\netstandard2.0\Application.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Application\obj\Debug\netstandard2.0\Application.pdb

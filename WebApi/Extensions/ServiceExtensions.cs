@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
@@ -12,7 +13,7 @@ namespace WebApi.Extensions
         {
             services.AddSwaggerGen(c =>
             {
-                c.IncludeXmlComments(string.Format(@"{0}\CleanArchitectureSolutions.xml", System.AppDomain.CurrentDomain.BaseDirectory));
+                //c.IncludeXmlComments(string.Format(@"{0}\CleanArchitectureSolutions.xml", System.AppDomain.CurrentDomain.BaseDirectory));
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
@@ -52,7 +53,7 @@ namespace WebApi.Extensions
                 });
             });
         }
-        public static void AddApiVersioningExtension(this IServiceCollection services)
+        public static void AddApiVersionExtension(this IServiceCollection services)
         {
             services.AddApiVersioning(config =>
             {
@@ -62,6 +63,8 @@ namespace WebApi.Extensions
                 config.AssumeDefaultVersionWhenUnspecified = true;
                 // Advertise the API versions supported for the particular endpoint
                 config.ReportApiVersions = true;
+                // HTTP Header based versioning - combine
+                config.ApiVersionReader = ApiVersionReader.Combine(new HeaderApiVersionReader("x-api-version"), new QueryStringApiVersionReader("api-version"));
             });
         }
     }

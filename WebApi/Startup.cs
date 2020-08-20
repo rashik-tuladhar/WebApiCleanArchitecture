@@ -21,7 +21,7 @@ namespace WebApi
         {
             services.AddSwaggerExtension();
             services.AddControllers();
-            services.AddApiVersioningExtension();
+            services.AddApiVersionExtension();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1963,7 +1963,7 @@
       },
       "Application/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/Application.dll": {}
         },
@@ -1973,7 +1973,7 @@
       },
       "Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -1983,7 +1983,7 @@
       },
       "Infrastructure.Persistence/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Application": "1.0.0",
           "Dapper": "2.0.35",
@@ -2002,7 +2002,7 @@
       },
       "Infrastructure.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/Infrastructure.Shared.dll": {}
         },

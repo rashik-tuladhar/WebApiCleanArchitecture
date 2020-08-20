@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+qLBBegJJIyxJt0ZHZxbpJTHO0PolqonD4errZDATSWckDWeS7dTlfouNK3Gfaapg+EygA37TwKw8RW3x9C+A==",
+  "dgSpecHash": "pbdt8kU4QBimgInWkcOsdAxLsAbojlomFypcwbq2nDhER0DqCSAPRmNNjM5U8YeC6IkUZNfX+JrTaFb3dCjLOw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rashik\\Desktop\\GITHUB PROJECTS\\WebApiCleanArchitecture\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Rashik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

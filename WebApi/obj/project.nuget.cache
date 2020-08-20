@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "4kJxrj4krItSYCNwfhalSOo+RPcThwArcSXeOpL+tIeBfn9PANnO9d+z9u6OzOgYxzPxtxk7mD0U2U89/dLuyQ==",
+  "dgSpecHash": "jyST0GZjkWzS5VTNprF3GOvRprD5p8RfJXcpUT07HSdpTM6phOTqoZZnNLCdV6b7WaVnuuUXm8uOyVU6PFRLQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rashik\\Desktop\\GITHUB PROJECTS\\WebApiCleanArchitecture\\WebApi\\WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.1\\swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

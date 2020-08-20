@@ -34,3 +34,16 @@ C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Infrastructure.Persistence.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Infrastructure.Shared.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Infrastructure.Persistence.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Infrastructure.Shared.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Domain.pdb

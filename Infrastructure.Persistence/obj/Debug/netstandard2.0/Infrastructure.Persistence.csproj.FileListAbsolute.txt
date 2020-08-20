@@ -4,6 +4,13 @@ C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.P
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csprojAssemblyReference.cache
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.AssemblyInfoInputs.cache
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.AssemblyInfo.cs
-C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.dll
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Application.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Application.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csproj.CopyComplete
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\obj\Debug\netstandard2.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\Infrastructure.Persistence\bin\Debug\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml

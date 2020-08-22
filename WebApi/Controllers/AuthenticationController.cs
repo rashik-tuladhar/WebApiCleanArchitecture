@@ -22,6 +22,10 @@ namespace WebApi.Controllers
         [Route("token")]
         public async Task<IActionResult> AuthenticationUser(TokenRequest tokenRequest)
         {
+            if (tokenRequest == null)
+            {
+                return BadRequest();
+            }
             var tokenDetails = await _authenticationService.AuthenticateUser(tokenRequest);
             if (tokenDetails.Token != null)
             {

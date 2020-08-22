@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Application.DTOs.Authentication;
+using Application.Helpers;
 using Application.Interfaces.Authentication;
 using Application.Interfaces.Repositories;
 using Domain.Settings;
@@ -82,8 +83,9 @@ namespace Infrastructure.Authentication.Services
         /// <returns></returns>
         public async Task<TokenClaims> AuthenticateUserDetails(TokenRequest tokenRequest)
         {
+            var password = EncryptionHelper.ComputeSha256Hash(tokenRequest.Password);
             var userDetails =await _authenticationDbContext.TokenAuthenticationDetails.FirstOrDefaultAsync(x =>
-                x.IdentificationId == tokenRequest.IdentificationId && x.Password == tokenRequest.Password);
+                x.IdentificationId == tokenRequest.IdentificationId && x.Password == password);
             TokenClaims tokenClaims = new TokenClaims();
             if (userDetails != null)
             {

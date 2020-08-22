@@ -8,7 +8,7 @@ namespace WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Route("api/v1/[controller]")]
+    //[Route("api/v1/[controller]")]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
@@ -18,16 +18,21 @@ namespace WebApi.Controllers
             _authenticationService = authenticationService;
         }
 
-        [HttpGet]
-        public async Task<TokenResponse> AuthenticationUser()
+        [HttpPost]
+        [Route("token")]
+        public async Task<IActionResult> AuthenticationUser(TokenRequest tokenRequest)
         {
-            var tokenDetails = await _authenticationService.AuthenticateUser(new TokenRequest {Username = "rashik", Password = "rashik"});
-            return tokenDetails;
+            var tokenDetails = await _authenticationService.AuthenticateUser(tokenRequest);
+            if (tokenDetails.Token != null)
+            {
+                return Ok(tokenDetails);
+            }
+            return Unauthorized();
         }
 
         [Authorize]
         [HttpGet]
-        [Route("CheckToken")]
+        [Route("checktoken")]
         public string GetHello()
         {
             return "Hello";

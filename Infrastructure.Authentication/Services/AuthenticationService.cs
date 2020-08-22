@@ -7,6 +7,8 @@ using Application.DTOs.Authentication;
 using Application.Interfaces.Authentication;
 using Application.Interfaces.Repositories;
 using Domain.Settings;
+using Infrastructure.Authentication.Contexts;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -18,11 +20,13 @@ namespace Infrastructure.Authentication.Services
         private readonly IConfiguration _configuration;
         private readonly IGenericRepositoryDapper _genericRepositoryDapper;
         private readonly JwtSettings _jwtSettings;
+        private readonly AuthenticationDbContext _authenticationDbContext;
 
-        public AuthenticationService(IConfiguration configuration, IGenericRepositoryDapper genericRepositoryDapper, IOptions<JwtSettings> jwtSettings)
+        public AuthenticationService(IConfiguration configuration, IGenericRepositoryDapper genericRepositoryDapper, IOptions<JwtSettings> jwtSettings, AuthenticationDbContext authenticationDbContext)
         {
             _configuration = configuration;
             _genericRepositoryDapper = genericRepositoryDapper;
+            _authenticationDbContext = authenticationDbContext;
             _jwtSettings = jwtSettings.Value;
         }
 
@@ -76,20 +80,19 @@ namespace Infrastructure.Authentication.Services
         /// </summary>
         /// <param name="tokenRequest"></param>
         /// <returns></returns>
-        private async Task<TokenClaims> AuthenticateUserDetails(TokenRequest tokenRequest)
+        public async Task<TokenClaims> AuthenticateUserDetails(TokenRequest tokenRequest)
         {
-            //var userDetails = await _genericRepositoryDapper.ManageDataWithSingleObjectAsync<TokenClaims>("", tokenRequest);
-            //return userDetails;
-
-            var tokenDetails = new TokenClaims();
-            if (tokenRequest.Username == "rashik" && tokenRequest.Password == "rashik")
+            var userDetails =await _authenticationDbContext.TokenAuthenticationDetails.FirstOrDefaultAsync(x =>
+                x.IdentificationId == tokenRequest.IdentificationId && x.Password == tokenRequest.Password);
+            TokenClaims tokenClaims = new TokenClaims();
+            if (userDetails != null)
             {
-                tokenDetails.Email = "hello@rashik.com.np";
-                tokenDetails.Name = "Rashik Tuladhar";
-                tokenDetails.Roles =
-                    "auth.weather"; //roles are separated by comma(,) which is also mentioned in constant class named AuthorizationConstants
+                tokenClaims.Name = userDetails.FullName;
+                tokenClaims.Email = userDetails.Email;
+                tokenClaims.Roles = userDetails.Roles;
             }
-            return tokenDetails;
+
+            return tokenClaims;
         }
     }
 }

@@ -1,3 +1,4 @@
+using Application;
 using Infrastructure.Authentication;
 using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
@@ -21,6 +22,8 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplicationLayer();
+
             #region Infrastructure
             services.AddAuthenticationInfrastructure(Configuration);
             services.AddPersistenceInfrastructure(Configuration);

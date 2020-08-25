@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Application.DTOs.Authentication;
 using Application.Interfaces.Authentication;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
@@ -13,15 +14,18 @@ namespace WebApi.Controllers
     {
         private readonly IAuthenticationService _authenticationService;
         private readonly ILogger _log = Log.ForContext<AuthenticationController>();
-        public AuthenticationController(IAuthenticationService authenticationService)
+        private readonly IMapper _mapper;
+        public AuthenticationController(IAuthenticationService authenticationService, IMapper mapper)
         {
             _authenticationService = authenticationService;
+            _mapper = mapper;
         }
 
         [HttpPost]
         [Route("token")]
         public async Task<IActionResult> AuthenticationUser(TokenRequest tokenRequest)
         {
+            var testObject = _mapper.Map<TokenRequestMapTest>(tokenRequest);
             if (tokenRequest == null)
             {
                 return BadRequest();

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Qgd0wHC4gmViyP1e4Tf/ssQtVAMAcv7TfWEu7NLBvltCKJrPPRbnsKCkyKwuZEU23ss/+MWDjgDTIQD4rXhTiA==",
+  "dgSpecHash": "LhBJaUN7njk0ZSRcYx77xMr9mUdz8hwrerhWTaGEXq9Iuqi4iP8OQsBijdTK6OjPxzFfSNYflfwcNVNHmyx4jA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rashik\\Desktop\\GITHUB PROJECTS\\WebApiCleanArchitecture\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rashik\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.7\\microsoft.aspnetcore.authentication.jwtbearer.3.1.7.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
@@ -116,7 +118,7 @@
     "C:\\Users\\Rashik\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Rashik\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

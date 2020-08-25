@@ -84,6 +84,8 @@ C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rashik\Desktop\GITHUB PROJECTS\WebApiCleanArchitecture\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplicationPartsAssemblyInfo.cache
